@@ -59,7 +59,7 @@ def main():
 
             # Plot a bar chart of the emotion frequencies
             fig, ax1 = plt.subplots()
-            ax1.bar(W.keys(), W.values())
+            ax1.bar(W.values(), W.keys())
             plt.xlabel('Emotion')
             plt.ylabel('Frequency')
             plt.title('Emotion Frequency Analysis')
